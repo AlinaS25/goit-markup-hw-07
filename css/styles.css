@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--main-text-color: #212121;
 	--secondary-text-color: #757575;
 	--main-white-color: #fff;
@@ -9,8 +9,8 @@
 	--card-border-color: #eee;
 	--background-color: #f5f4fa;
 	--icon-color: #afb1b8;
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -26,26 +26,26 @@ ul {
 }
 img {
 	display: block;
-}
+} */
 
-.container {
+/* .container {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-}
+} */
 
-body {
+/* body {
 	font-family: "Roboto", sans-serif;
 	color: var(--main-text-color);
 	font-size: 14px;
 	letter-spacing: 0.03em;
-}
-a {
+} */
+/* a {
 	text-decoration: none;
 	color: var(--main-text-color);
-}
-.header {
+} */
+/* .header {
 	border-bottom: 1px solid var(--card-border-color);
 }
 
@@ -144,9 +144,9 @@ a {
 .link-header-number:hover,
 .link-header-number:focus {
 	color: var(--highlight-color);
-}
+} */
 
-.hero {
+/* .hero {
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -202,8 +202,8 @@ button {
 .button:active {
 	background-color: var(--button-active-color);
 	color: var(--main-white-color);
-}
-.hidden {
+} */
+/* .hidden {
 	color: rgba(0, 0, 0, 0);
 	position: absolute;
 	width: 1px;
@@ -215,9 +215,9 @@ button {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
+} */
 
-.sec-two {
+/* .sec-two {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -256,9 +256,9 @@ button {
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
-}
+} */
 
-.sec-three {
+/* .sec-three {
 	text-align: center;
 	width: 100%;
 
@@ -302,8 +302,8 @@ button {
 	text-transform: uppercase;
 	background-color: rgba(47, 48, 58, 0.8);
 	color: var(--main-white-color);
-}
-.sec-four {
+} */
+/* .sec-four {
 	background-color: var(--secondary-white-color);
 	padding-top: 94px;
 	padding-bottom: 94px;
@@ -372,9 +372,9 @@ button {
 	border-radius: 100%;
 	background: rgba(255, 255, 255, 0.1);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.clients {
+/* .clients {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -417,7 +417,7 @@ button {
 .clients-icons-link:hover,
 .clients-icons-link:focus {
 	border: 1px solid var(--highlight-color);
-}
+} */
 
 .sec-one-portfolio {
 	padding-top: 94px;
@@ -667,6 +667,7 @@ outline-color: var(--highlight-color);
 .modal-icon-footer {
 	fill: var(--main-white-color);
 }
+
 .modal {
 	width: 528px;
 	min-height: 580px;
@@ -761,7 +762,7 @@ outline-color: var(--highlight-color);
 	border-color: var(--highlight-color);
 }
 
-.check-icon{
+.check-modal-icon {
 	margin-left: 20px;
 }
 .input-policy {

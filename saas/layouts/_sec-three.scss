@@ -1,0 +1,45 @@
+.sec-three {
+	text-align: center;
+	width: 100%;
+
+	padding-bottom: 94px;
+}
+.sec-head {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1, 1666;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
+	margin-bottom: 50px;
+}
+
+.images-block {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.images {
+	list-style: none;
+	position: relative;
+}
+
+.label-text {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	background-color: rgba(47, 48, 58, 0.8);
+	color: var(--main-white-color);
+}
