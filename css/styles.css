@@ -761,7 +761,9 @@ outline-color: var(--highlight-color);
 	border-color: var(--highlight-color);
 }
 
-
+.check-icon{
+	margin-left: 20px;
+}
 .input-policy {
 	color: var(--highlight-color);
 	letter-spacing: 0.03em;
@@ -833,6 +835,7 @@ outline-color: var(--highlight-color);
 	color: var(--main-white-color);
 	background-color: var(--highlight-color);
 	cursor: pointer;
+	margin-top: 30px;
 }
 .input-button:hover,
 .input-button:focus {
