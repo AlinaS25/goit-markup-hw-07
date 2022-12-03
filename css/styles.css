@@ -419,7 +419,7 @@ button {
 	border: 1px solid var(--highlight-color);
 } */
 
-.sec-one-portfolio {
+/* .sec-one-portfolio {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -520,9 +520,9 @@ button {
 	font-size: 16px;
 	letter-spacing: 0.03em;
 	line-height: 2;
-}
+} */
 
-.footer {
+/* .footer {
 	padding: 60px 0;
 	background-color: var(--fill-color);
 }
@@ -666,9 +666,9 @@ outline-color: var(--highlight-color);
 }
 .modal-icon-footer {
 	fill: var(--main-white-color);
-}
+} */
 
-.modal {
+/* .modal {
 	width: 528px;
 	min-height: 580px;
 	background-color: var(--main-white-color);
@@ -844,4 +844,4 @@ outline-color: var(--highlight-color);
 	color: var(--main-white-color);
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
