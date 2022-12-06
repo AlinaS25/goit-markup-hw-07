@@ -265,19 +265,19 @@ body {
   border-bottom: 1px solid var(--card-border-color);
 }
 
-.header-container {
+.header__container {
   height: 80px;
   display: flex;
   align-items: center;
 }
 
-.nav-flex {
+.header__navigation {
   display: flex;
   margin-right: auto;
   align-items: center;
 }
 
-.logo-header {
+.logo__header {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -290,7 +290,7 @@ body {
   color: var(--highlight-color);
 }
 
-.nav-ul-flex {
+.menu {
   display: flex;
   gap: 50px;
   padding-top: 32px;
@@ -307,7 +307,7 @@ body {
   transform: translateX(-4%);
 }
 
-.link-header {
+.menu__link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -316,14 +316,14 @@ body {
   color: var(--main-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-ul-flex .link-header:hover, .nav-ul-flex .link-header:focus {
+.menu .menu__link:hover, .menu .menu__link:focus {
   color: var(--highlight-color);
 }
-.nav-ul-flex .link-header.current {
+.menu .menu__link.current {
   color: var(--highlight-color);
 }
 
-.ul-mail-flex {
+.menu__contacts {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -332,32 +332,32 @@ body {
 .contacts-icon {
   margin-right: 10px;
 }
-.link-header-number:hover .contacts-icon {
+.contacts__number:hover .contacts-icon {
   fill: var(--highlight-color);
 }
-.link-header-mail:hover .contacts-icon {
+.contacts__mail:hover .contacts-icon {
   fill: var(--highlight-color);
 }
 
-.link-header-mail {
+.contacts__mail {
   display: flex;
   align-items: center;
   list-style: none;
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-header-mail:hover, .link-header-mail:focus {
+.contacts__mail:hover, .contacts__mail:focus {
   color: var(--highlight-color);
 }
 
-.link-header-number {
+.contacts__number {
   display: flex;
   align-items: center;
   list-style: none;
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-header-number:hover, .link-header-number:focus {
+.contacts__number:hover, .contacts__number:focus {
   color: var(--highlight-color);
 }
 
@@ -373,7 +373,7 @@ section {
   display: block;
 }
 
-.main-h1-title {
+.hero__title {
   color: var(--main-white-color);
   font-size: 44px;
   line-height: 1.36;
@@ -386,7 +386,7 @@ section {
   margin-bottom: 30px;
 }
 
-.button {
+.hero__button {
   width: 216px;
   height: 50px;
   background-color: var(--highlight-color);
@@ -400,30 +400,30 @@ section {
   font-family: inherit;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:hover {
+.hero__button:hover {
   background-color: var(--button-active-color);
   color: var(--main-white-color);
 }
-.button:focus {
+.hero__button:focus {
   background-color: var(--button-active-color);
   color: var(--main-white-color);
 }
-.button:active {
+.hero__button:active {
   background-color: var(--button-active-color);
   color: var(--main-white-color);
 }
 
-.sec-two {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.our-skills {
+.benefits__list {
   display: flex;
   justify-content: space-between;
 }
 
-.skill-cont {
+.benefits__content {
   line-height: 1.71;
   letter-spacing: 0.03em;
   width: 270px;
@@ -440,7 +440,7 @@ section {
   margin-bottom: 30px;
 }
 
-.skill-name {
+.benefits__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -450,20 +450,20 @@ section {
   margin-bottom: 10px;
 }
 
-.skill-descr {
+.benefits__descr {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.sec-three {
+.our__works {
   text-align: center;
   width: 100%;
   padding-bottom: 94px;
 }
 
-.sec-head {
+.works__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 1666;
@@ -473,18 +473,18 @@ section {
   margin-bottom: 50px;
 }
 
-.images-block {
+.images__block {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.images {
+.images__item {
   list-style: none;
   position: relative;
 }
 
-.label-text {
+.images__text {
   position: absolute;
   display: flex;
   text-align: center;

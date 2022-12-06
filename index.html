@@ -20,30 +20,30 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="container header-container">
-				<nav class="nav-flex">
-					<a class="logo-header" href="./index.html"> <span class="logo-h1">Web</span>Studio</a>
-					<ul class="nav-ul-flex">
-						<li>
-							<a class="link-header current" href="./index.html">Студія</a>
+			<div class="container header__container">
+				<nav class="navigation header__navigation">
+					<a class="logo logo__header" href="./index.html"> <span class="logo-h1">Web</span>Studio</a>
+					<ul class="menu">
+						<li class="menu__item">
+							<a class="menu__link current" href="./index.html">Студія</a>
 						</li>
-						<li>
-							<a class="link-header" href="./portfolio.html">Портфоліо</a>
+						<li class="menu__item">
+							<a class="menu__link" href="./portfolio.html">Портфоліо</a>
 						</li>
-						<li><a class="link-header" href="#footer">Контакти</a></li>
+						<li class="menu__item"><a class="menu__link" href="#footer">Контакти</a></li>
 					</ul>
 				</nav>
-				<ul class="ul-mail-flex">
-					<li>
-						<a class="link-header-mail" href="mailto:info@devstudio.com">
+				<ul class="menu__contacts">
+					<li class="menu__item__contacts">
+						<a class="contacts__mail" href="mailto:info@devstudio.com">
 							<svg class="contacts-icon" width="16" height="12">
 								<use href="./img/icons.svg#icon-envelope"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
-					<li>
-						<a class="link-header-number" href="tel:+380961111111"
+					<li class="menu__item__contacts">
+						<a class="contacts__number" href="tel:+380961111111"
 							><svg class="contacts-icon" width="10" height="16">
 								<use href="./img/icons.svg#icon-smartphone"></use>
 							</svg>
@@ -55,78 +55,78 @@
 		</header>
 		<main>
 			<section class="hero">
-				<div class="container">
-					<h1 class="main-h1-title">Ефективні рішення для вашого бізнесу</h1>
-					<button class="button" type="button" data-modal-open> Замовити послугу </button>
+				<div class="container hero__container">
+					<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+					<button class="hero__button" type="button" data-modal-open> Замовити послугу </button>
 				</div>
 			</section>
-			<section class="sec-two">
-				<div class="container">
+			<section class="benefits">
+				<div class="container benefits__container">
 					<h2 class="hidden">Наші переваги</h2>
-					<ul class="our-skills">
-						<li class="skill-cont">
+					<ul class="benefits__list">
+						<li class="benefits__content">
 							<div class="svg-icon-style">
 								<svg class="icon-team" width="70" height="70">
 									<use href="./img/icons.svg#icon-antenna"></use>
 								</svg>
 							</div>
-							<h3 class="skill-name">УВАГА ДО ДЕТАЛЕЙ</h3>
-							<p class="skill-descr">
+							<h3 class="benefits__name">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="benefits__descr">
 								Ідейні міркування, та навіть початок повсякденної роботи з формування позиції.
 							</p>
 						</li>
-						<li class="skill-cont">
+						<li class="benefits__content">
 							<div class="svg-icon-style">
 								<svg class="icon-team" width="70" height="70">
 									<use href="./img/icons.svg#icon-clock"></use>
 								</svg>
 							</div>
-							<h3 class="skill-name">ПУНКТУАЛЬНІСТЬ</h3>
-							<p class="skill-descr"> Завдання організації, особливо рамки та місце навчання кадрів тягне у себе. </p>
+							<h3 class="benefits__name">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="benefits__descr"> Завдання організації, особливо рамки та місце навчання кадрів тягне у себе. </p>
 						</li>
-						<li class="skill-cont">
+						<li class="benefits__content">
 							<div class="svg-icon-style">
 								<svg class="icon-team" width="70" height="70">
 									<use href="./img/icons.svg#icon-laptop"></use>
 								</svg>
 							</div>
-							<h3 class="skill-name">ПЛАНУВАННЯ</h3>
-							<p class="skill-descr"> Так само консультація з широким активом значною мірою зумовлює. </p>
+							<h3 class="benefits__name">ПЛАНУВАННЯ</h3>
+							<p class="benefits__descr"> Так само консультація з широким активом значною мірою зумовлює. </p>
 						</li>
-						<li class="skill-cont">
+						<li class="benefits__content">
 							<div class="svg-icon-style">
 								<svg class="icon-team" width="70" height="70">
 									<use href="./img/icons.svg#icon-astronaut"></use>
 								</svg>
 							</div>
-							<h3 class="skill-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-							<p class="skill-descr"> Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
+							<h3 class="benefits__name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="benefits__descr"> Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
 						</li>
 					</ul>
 				</div>
 			</section>
-			<section class="sec-three">
-				<div class="container">
-					<h2 class="sec-head">Чим ми займаємось</h2>
-					<ul class="images-block">
-						<li class="images">
+			<section class="our__works">
+				<div class="container our__works__container">
+					<h2 class="works__title">Чим ми займаємось</h2>
+					<ul class="images__block">
+						<li class="images__item">
 							<img src="./img/1.jpg" alt="Чоловік працює над кодом сайту" width="370" />
-							<p class="label-text">Десктопні додатки</p>
+							<p class="images__text">Десктопні додатки</p>
 						</li>
-						<li class="images">
+						<li class="images__item">
 							<img src="./img/2.jpg" alt="Жінка з телефоном та ноутбуком" width="370" />
-							<p class="label-text">Мобільні додатки</p>
+							<p class="images__text">Мобільні додатки</p>
 						</li>
-						<li class="images">
+						<li class="images__item">
 							<img src="./img/3.jpg" alt="планшет в якому відкрито палітру кольорів" width="370" />
-							<p class="label-text">Дизайнерські рішення</p>
+							<p class="images__text">Дизайнерські рішення</p>
 						</li>
 					</ul>
 				</div>
 			</section>
 			<section class="sec-four">
 				<div class="container">
-					<h2 class="sec-head">Наша команда</h2>
+					<h2 class="works__title">Наша команда</h2>
 					<ul class="cards">
 						<li class="card">
 							<img src="./img/4.jpg" alt="фото дизайнера Ігора Дем'янко" width="270" />
@@ -301,28 +301,32 @@
 						<li class="clients-icons-list">
 							<a class="clients-icons-link" href="#">
 								<svg class="clients-icons" width="106" height="60">
-									<use href="./img/icons.svg#icon-logo2"></use>
-									</svg></a>
+									<use href="./img/icons.svg#icon-logo2"></use></svg
+							></a>
 						</li>
 						<li class="clients-icons-list">
 							<a class="clients-icons-link" href="#">
 								<svg class="clients-icons" width="106" height="60">
-									<use href="./img/icons.svg#icon-logo3"></use></svg></a>
+									<use href="./img/icons.svg#icon-logo3"></use></svg
+							></a>
 						</li>
 						<li class="clients-icons-list">
 							<a class="clients-icons-link" href="#">
 								<svg class="clients-icons" width="106" height="60">
-									<use href="./img/icons.svg#icon-logo4"></use></svg></a>
+									<use href="./img/icons.svg#icon-logo4"></use></svg
+							></a>
 						</li>
 						<li class="clients-icons-list">
 							<a class="clients-icons-link" href="#">
 								<svg class="clients-icons" width="106" height="60">
-									<use href="./img/icons.svg#icon-logo5"></use></svg></a>
+									<use href="./img/icons.svg#icon-logo5"></use></svg
+							></a>
 						</li>
 						<li class="clients-icons-list">
 							<a class="clients-icons-link" href="#">
 								<svg class="clients-icons" width="106" height="60">
-									<use href="./img/icons.svg#icon-logo6"></use></svg></a>
+									<use href="./img/icons.svg#icon-logo6"></use></svg
+							></a>
 						</li>
 					</ul>
 				</div>
@@ -389,23 +393,16 @@
 				<div class="modal-footer">
 					<p class="sign-title">Підпишіться на розсилку</p>
 					<form class="footer-form">
-						
-							<input class="input-footer" 
-							type="email" 
-							name="input-email" 
-							id="email"
-							placeholder="E-mail">
-									<button class="input-button-footer" type="submit">
-										Підписатися
-										<svg class="modal-icon-footer" width="24" height="24">
-											<use href="./img/icons.svg#icon-icon-send-1"></use>
-										</svg>
-									</button>
-								
-							</form>
+						<input class="input-footer" type="email" name="input-email" id="email" placeholder="E-mail" />
+						<button class="input-button-footer" type="submit">
+							Підписатися
+							<svg class="modal-icon-footer" width="24" height="24">
+								<use href="./img/icons.svg#icon-icon-send-1"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
-			
-		</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
@@ -435,10 +432,7 @@
 					<div class="modal-field">
 						<label for="user-name" class="input-label">Пошта</label>
 
-						<input type="email"
-						 name="user-email"
-						  class="modal-input" 
-						  required />
+						<input type="email" name="user-email" class="modal-input" required />
 						<svg class="modal-icon" width="18" height="18">
 							<use href="./img/icons.svg#icon-email"></use>
 						</svg>
@@ -446,10 +440,7 @@
 					<div class="modal-field">
 						<label for="user-text" class="input-label">Коментар</label>
 
-						<textarea name="user-text"
-						 id="user-text" 
-						 class="modal-comment" 
-						 placeholder="Введіть текст"></textarea>
+						<textarea name="user-text" id="user-text" class="modal-comment" placeholder="Введіть текст"></textarea>
 
 						<div class="modal-field">
 							<input class="modal-check hidden" type="checkbox" name="policy" id="policy" />

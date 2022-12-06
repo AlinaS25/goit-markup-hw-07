@@ -1,10 +1,10 @@
-.sec-three {
+.our__works {
 	text-align: center;
 	width: 100%;
 
 	padding-bottom: 94px;
 }
-.sec-head {
+.works__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1, 1666;
@@ -14,18 +14,18 @@
 	margin-bottom: 50px;
 }
 
-.images-block {
+.images__block {
 	display: flex;
 	justify-content: center;
 	gap: 30px;
 }
 
-.images {
+.images__item {
 	list-style: none;
 	position: relative;
 }
 
-.label-text {
+.images__text {
 	position: absolute;
 	display: flex;
 	text-align: center;
